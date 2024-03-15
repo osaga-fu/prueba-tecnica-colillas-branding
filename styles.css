@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.top-section {
+  width: 100%;
+  height: 814px;
+  background-image: url(./assets/leone-venter-VieM9BdZKFo-unsplash.jpg);
+  background-size: cover;
+  filter: grayscale(100%);
+}
