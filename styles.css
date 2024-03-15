@@ -1,13 +1,47 @@
+.tinos-bold {
+  font-family: "Tinos", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* outline: blue solid 1px; */
 }
 
 .top-section {
   width: 100%;
   height: 814px;
-  background-image: url(./assets/leone-venter-VieM9BdZKFo-unsplash.jpg);
-  background-size: cover;
-  filter: grayscale(100%);
+  position: relative;
+}
+
+nav {
+  height: 110px;
+  padding: 80px 80px 0 80px;
+}
+
+header {
+    padding: 80px 80px 0 80px;
+    height: 200px;
+}
+.hero-container {
+    padding: 0 421px 0 0;
+}
+
+.hero-text {
+  font-family: "Tinos";
+  font-size: 42px;
+  line-height: 46px;
+  width: 859px;
+  color: #303536;
+
+}
+.background-image{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: -1;
+    filter: grayscale(100%);
 }
