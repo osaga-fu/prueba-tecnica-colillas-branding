@@ -55,4 +55,4 @@ function isValidPhoneNumber(phone) {
   return /^\d{9,}$/.test(phone);
 }
 
-module.exports = isValidEmail;
+module.exports = { validateForm, isValidEmail, isValidPhoneNumber };
