@@ -577,7 +577,7 @@ footer {
   text-decoration: none;
 }
 
-.credits-text:hover {
+.credits-links .credits-text:hover {
   color: #e7e7e7;
 }
 
