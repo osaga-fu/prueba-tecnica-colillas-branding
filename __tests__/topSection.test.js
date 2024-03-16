@@ -1,5 +1,4 @@
-
-const  flip  = require("../scripts/topSection.js");
+const flip = require("../scripts/topSection.js");
 
 test("flip adds th class flipped when you click on the arrow", () => {
   document.body.innerHTML = `<div class="selector">
