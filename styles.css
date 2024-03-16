@@ -198,16 +198,97 @@ header {
 }
 
 .bloc-column-subtitle {
-    font-family: 'DM Sans';
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 35.2px;
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 35.2px;
 }
 
-.bloc-column-paragraph{
-    font-family: 'DM Sans';
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20.83px;
-    margin-bottom: 10px;
+.bloc-column-paragraph {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20.83px;
+  margin-bottom: 10px;
+}
+
+/* About us */
+.about-us {
+  height: 657.89px;
+  background-color: #f7f7f7;
+  padding: 75px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.about-us-container {
+  width: 1290px;
+  height: 399.89px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.about-us-title {
+  height: 43px;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 43.2px;
+  text-align: center;
+  color: #1d1d1b;
+}
+
+.testimonial {
+  padding: 50px 150px;
+}
+
+.testimonial-container {
+  height: 236.89px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.stars-container {
+  width: 116px;
+  height: 18.89px;
+}
+
+.star-logo {
+  width: 20px;
+}
+
+.testimonial-quote {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 38.4px;
+  color: #000;
+}
+
+.avatar-container {
+  width: 179px;
+  height: 40px;
+  color: #000;
+}
+
+.avatar-title {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+  text-align: center;
+}
+
+.avatar-text {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+  text-align: center;
 }
