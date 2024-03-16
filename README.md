@@ -22,5 +22,14 @@ I have also created the test for those javascript methods. In order to check tho
 
 ```
 nnpm install --save-dev jest
+
+npm install --save-dev jest-environment-jsdom
+
 ```
 All of the test can be found on the folder **\_\_tests\_\_**
+
+In order to run the test you need to insert the following command
+
+```
+npm test
+```

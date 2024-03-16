@@ -97,6 +97,5 @@ header {
   width: 100%;
   top: -80px;
   z-index: -1;
-
   filter: grayscale(100%);
 }

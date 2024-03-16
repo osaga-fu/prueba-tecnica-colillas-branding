@@ -12,7 +12,7 @@ function validateForm() {
   const checkboxTerms = document.getElementById("checkbox-terms").checked;
 
   if (name.length === 0) {
-    alert("Por favor, introduzca su nombr.");
+    alert("Por favor, introduzca su nombre.");
     return;
   }
 
