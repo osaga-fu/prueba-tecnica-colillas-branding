@@ -123,8 +123,9 @@ header {
 .background-image {
   position: absolute;
   width: 100%;
-  bottom: 0;
+  top:-80px;
   z-index: -1;
+  
   filter: grayscale(100%);
 }
 
@@ -234,7 +235,6 @@ header {
 
 .about-us-container {
   width: 1290px;
-  height: 399.89px;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -277,6 +277,7 @@ header {
   font-size: 24px;
   line-height: 38.4px;
   color: #000;
+  text-align: center;
 }
 
 .avatar-container {
@@ -305,7 +306,7 @@ header {
 
 .about-us-line {
   height: 2px;
-  background-color: #e7e7e7;
+  background-color: #E7E7E7;
   border: none;
 }
 
@@ -325,7 +326,7 @@ header {
 .form-section {
   height: 713px;
   padding: 75px;
-  background-color: #f7f7f7;
+  background-color: fff;
 }
 
 .form-container {
