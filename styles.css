@@ -292,3 +292,20 @@ header {
   letter-spacing: 0.1px;
   text-align: center;
 }
+
+.about-us-line {
+  height: 2px;
+  background-color: #e7e7e7;
+  border: none;
+}
+
+.logos-container {
+  display: flex;
+  justify-content: space-between;
+  height: 48px;
+  width: 1290px;
+}
+
+.about-us-logo {
+    height: 48px;
+}
