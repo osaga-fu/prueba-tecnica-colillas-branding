@@ -1,0 +1,43 @@
+.bloc {
+    background-color: #303536;
+    height: 662px;
+    padding: 80px;
+    display: flex;
+    gap: 40px;
+  }
+  
+  .bloc-container {
+    display: flex;
+    gap: 40px;
+    height: 502px;
+    color: #e7e5e4;
+  }
+  
+  .bloc-column {
+    width: 620px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .bloc-column-title {
+    font-family: "Tinos";
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 70.4px;
+  }
+  
+  .bloc-column-subtitle {
+    font-family: "DM Sans";
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 35.2px;
+  }
+  
+  .bloc-column-paragraph {
+    font-family: "DM Sans";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.83px;
+    margin-bottom: 10px;
+  }
