@@ -1,3 +1,4 @@
+/* Fonts */
 .tinos-bold {
   font-family: "Tinos", serif;
   font-weight: 700;
@@ -11,13 +12,19 @@
   font-style: normal;
 }
 
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Formating */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   outline: blue solid 1px;
 }
-
 
 /* Top section */
 
@@ -106,9 +113,56 @@ header {
 .background-image {
   position: absolute;
   width: 100%;
-  top: 0;
+  bottom: 0;
   z-index: -1;
   filter: grayscale(100%);
 }
 
 /* Advantages */
+.advantages {
+  height: 362px;
+  padding: 0 75px 75px 75px;
+  background-color: #fff;
+}
+
+.advantages-container {
+  width: 1290px;
+  padding-top: 70px;
+  display: flex;
+  gap: 30px;
+}
+
+.advantages-article {
+  width: 300px;
+  height: 217px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.advantages-logo {
+  width: 48px;
+}
+
+.advantages-text-container {
+  height: 119px;
+  font-family: "Poppins";
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.advantages-text-title {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 43.2px;
+  color: #1d1d1b;
+}
+
+.advantages-text-content {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+  color: #848484;
+}
