@@ -25,7 +25,7 @@
     font-size: 20px;
     line-height: 20px;
     letter-spacing: 2px;
-    color: #f5333f;
+    color: var(--main-color);
     text-transform: uppercase;
   }
   
