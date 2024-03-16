@@ -1,7 +1,7 @@
 # prueba-tecnica-colillas-branding
 
-Prueba técnica de Junior Frontend para Colillas Branding.
+Junior Frontend Technical Test for Colillas Branding
 
-# Estructura html
+# Design
 
-Fui siguiendo la estructura de elemntos html proporcionada en el Figma para completar la tarea.
+I followed the HTML element naming and structure provided in Figma to complete the task.
