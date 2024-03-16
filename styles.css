@@ -18,12 +18,22 @@
   font-style: normal;
 }
 
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 /* Formating */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   outline: blue solid 1px;
+}
+
+a {
+  color: #000;
 }
 
 /* Top section */
@@ -307,5 +317,141 @@ header {
 }
 
 .about-us-logo {
-    height: 48px;
+  height: 48px;
+}
+
+/* Form section  */
+
+.form-section {
+  height: 713px;
+  padding: 75px;
+  background-color: #f7f7f7;
+}
+
+.form-container {
+  width: 1290px;
+  height: 563px;
+  display: flex;
+  gap: 50px;
+}
+
+.form-info {
+  width: 620px;
+  height: 116px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-info-title {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  color: #f5333f;
+  text-transform: uppercase;
+}
+
+.form-info-subtitle {
+  height: 86px;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 43.2px;
+  color: #1d1d1b;
+}
+
+form {
+  width: 620px;
+  height: 563px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.form-line {
+  display: flex;
+  height: 80px;
+  width: 620px;
+  justify-content: space-between;
+}
+
+.input-container {
+  width: 298px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+label {
+  height: 24px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000;
+}
+
+#name,
+#company,
+#email,
+#phone {
+  padding: 12px;
+  height: 48px;
+  border-radius: 30px;
+  border: 1px solid #aaaaaa;
+  background-color: #fff;
+}
+
+.message-input {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+#message {
+  height: 180px;
+  background-color: #fff;
+  border-radius: 32px;
+  border: 1px solid #aaaaaa;
+  padding: 12px;
+}
+
+.checkbox-terms-label {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.submit-button-container {
+  background-color: #000;
+  width: 142.5px;
+  height: 50px;
+  padding: 10px 20px;
+  border-radius: 60px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+ 
+}
+
+#submit {
+  border: none;
+  height: 50px;
+  background-color: #000;
+  color: #ffffff;
+  font-family: "Poppins";
+  font-size: 20px;
+  line-height: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.submit-arrow {
+  filter: brightness(100);
+  width: 25.5px;
+  height: 20px;
 }
