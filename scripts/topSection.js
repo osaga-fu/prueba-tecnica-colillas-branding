@@ -1,4 +1,3 @@
-
 const arrowImages = document.querySelectorAll(".arrow-image");
 
 function flip(arrow) {
