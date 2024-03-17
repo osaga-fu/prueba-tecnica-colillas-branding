@@ -16,17 +16,17 @@ All of the fonts used for the project are imported via link from google fonts an
 
 I have created javascript functionality for the app. All the scripts can be found on the **scripts** folder.
 
-## Tests
+## Test
 
-I have also created the test for those javascript methods. In order to check those test you should use the following command to install jest:
+I have also created a test for one of the javascript methods. Use the following command to install jest:
 
 ```
-nnpm install --save-dev jest
+npm npm install --save-dev jest
 
 npm install --save-dev jest-environment-jsdom
 
 ```
-All of the test can be found on the folder **\_\_tests\_\_**
+The test can be found on the folder **\_\_tests\_\_**
 
 In order to run the test you need to insert the following command
 
