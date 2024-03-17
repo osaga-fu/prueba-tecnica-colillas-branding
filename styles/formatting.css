@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* outline: blue solid 1px; */
+}
+
+a {
+  color: #000;
+}
+
+:root {
+  --main-color: #f5333f;
+  --second-color: ;
+  --main-font: ;
+  --second-font: ;
+}
