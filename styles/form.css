@@ -134,3 +134,12 @@ label {
   width: 25.5px;
   height: 20px;
 }
+
+input:focus {
+  box-shadow: #aaaaaa 2px 2px 5px;
+  outline: none;
+ }
+ 
+ input:focus#submit{
+   box-shadow: none;
+ }
